@@ -1,0 +1,35 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "name": "cheeseburger",
+            "category": "food",
+            "price": 12.99
+        },
+        {
+            "id": 2,
+            "name": "chicken wrap",
+            "category": "food",
+            "price": 9.99
+        },
+        {
+            "id": 3,
+            "name": "pepperoni pizza",
+            "category": "food",
+            "price": 14.99
+        }
+    ],
+    "drinks": [
+        {
+            "id": 1,
+            "name": "chocolate milkshake",
+            "price": 4.99
+        },
+        {
+            "id": 2,
+            "name": "chicken wrap",
+            "price": 9.99
+        }
+        
+    ]
+}
