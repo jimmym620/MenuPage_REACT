@@ -16,13 +16,17 @@ a {
     box-sizing: border-box;
 }
 .content {
-  max-width: 960px;
-  margin: 0 auto;
+    background: white;
+    max-width: 90rem;
+    margin: 2rem auto;
+}
+
+.content div {
+    padding: 2rem;
 }
 
 nav {
-    margin: 10px auto 80px;
-    padding: 10px 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -30,13 +34,33 @@ nav {
 }
 
 nav a {
-    margin-left: 12px;
-
+    margin-left: 1rem;
+    font-size: 2rem;
 }
 
 .logo {
+    color: red;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-list h1{
+    text-align: center;
     
-   color: red;
+}
+
+.menu-list article {
+    /* background: red; */
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.menu-item-name {
+    text-transform: capitalize;
+    margin: 0 auto;
 }
 
 footer {
@@ -48,11 +72,10 @@ footer {
     border-top: 1px solid #eaeaea;
 }
 
-.not-found{
+.not-found {
     text-align: center;
-    
 }
 
-.not-found a{
+.not-found a {
     color: rgb(8, 115, 255);
 }

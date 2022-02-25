@@ -3,32 +3,39 @@
         {
             "id": 1,
             "name": "cheeseburger",
-            "category": "food",
+            "thumbnail": "/menu-thumbnails/cheeseburger.jpg",
+            "altText": "cheeseburger with fries",
             "price": 12.99
         },
         {
             "id": 2,
-            "name": "chicken wrap",
-            "category": "food",
-            "price": 9.99
+            "name": "spinach lasagne",
+            "thumbnail": "/menu-thumbnails/lasagne.jpg",
+            "altText": "lasagne made with fresh spinach",
+            "price": 11.99
         },
         {
             "id": 3,
-            "name": "pepperoni pizza",
-            "category": "food",
+            "name": "tomato & basil pizza",
+            "thumbnail": "/menu-thumbnails/basil-pizza.jpg",
+            "altText": "freshly baked pizza topped with basil and tomato",
             "price": 14.99
         }
     ],
     "drinks": [
         {
             "id": 1,
-            "name": "chocolate milkshake",
-            "price": 4.99
+            "name": "strawberry milkshake",
+            "thumbnail": "/menu-thumbnails/strawb-milkshake.jpg",
+            "altText": "strawberry milkshake",
+            "price": 5.99
         },
         {
             "id": 2,
-            "name": "chicken wrap",
-            "price": 9.99
+            "name": "fresh fruit juice",
+            "thumbnail": "/menu-thumbnails/juices.jpg",
+            "altText": "assortment of juices",
+            "price": 4.99
         }
         
     ]
