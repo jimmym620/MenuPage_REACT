@@ -17,15 +17,13 @@ a {
 }
 .content {
     background: white;
-    max-width: 90rem;
+    max-width: 60vw;
     margin: 2rem auto;
-}
-
-.content div {
     padding: 2rem;
 }
 
 nav {
+    max-width: 70vw;
     padding: 1rem 0;
     display: flex;
     justify-content: flex-start;
@@ -44,23 +42,62 @@ nav a {
 
 .menu-list {
     display: flex;
-    justify-content: space-around;
-}
-
-.menu-list h1{
+    flex-direction: column;
     text-align: center;
-    
 }
 
-.menu-list article {
+.menu-title {
+    margin: 0;
+    padding: 1rem;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background-color: brown;
+    padding: 0;
+}
+
+.menu-list section {
     /* background: red; */
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .menu-item-name {
     text-transform: capitalize;
     margin: 0 auto;
+    text-decoration: underline;
+}
+
+.dish-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dish-details div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dish-details h1 {
+    text-transform: capitalize;
+}
+
+.dish-details .item-menu-btn {
+    height: 2.5rem;
+    max-width: 10rem;
+    text-align: center;
+    font-weight: 500;
+    border: 0.3rem solid;
+    padding: 0.2rem;
+    background-color: rgb(72, 151, 255);
 }
 
 footer {
@@ -78,4 +115,26 @@ footer {
 
 .not-found a {
     color: rgb(8, 115, 255);
+}
+
+@media (min-width: 250px) and (max-width: 650px) {
+    .content {
+        max-width: 100vw;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    nav {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #ddd;
+    }
+    nav a {
+        font-size: 3vh;
+        margin-left: 1rem;
+    }
+    .dish-details div{
+        width: 90vw;
+    }
 }

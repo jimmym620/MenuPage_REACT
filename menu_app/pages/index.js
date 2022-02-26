@@ -8,14 +8,15 @@ export default function Home() {
         <>
             <Head>
                 <title>Restaurant Name | Home</title>
-                <meta name="keywords" content="food"/>
+                <meta name="keywords" content="food" />
             </Head>
             <div>
                 <h1>Restaurant Name Here</h1>
                 <h2>Daily Specials</h2>
-                <Link href="/about">
-                    <a>Chicken Special</a>
-                </Link>
+
+                <p>Chicken Caesar Salad</p>
+                <h3>Soup of the day</h3>
+                <p>Minestrone soup</p>
             </div>
         </>
     );
