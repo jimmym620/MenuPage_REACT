@@ -5,19 +5,19 @@ const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                <Image src="/bowl.jpg" width={160} height={160} />
+                <Image src="/bowl.jpg" width={120} height={120} />
             </div>
             <Link href="/">
                 <a>Home</a>
             </Link>
             <Link href="/dishes">
-                <a>Dishes</a>
+                <a>Menu</a>
             </Link>
             <Link href="/about">
                 <a>About</a>
             </Link>
             <Link href="/contact">
-                <a>Contact</a>
+                <a>Book</a>
             </Link>
         </nav>
     );

@@ -20,6 +20,13 @@
             "thumbnail": "/menu-thumbnails/basil-pizza.jpg",
             "altText": "freshly baked pizza topped with basil and tomato",
             "price": 14.99
+        },
+        {
+            "id": "f4",
+            "name": "tomato & basil pasta",
+            "thumbnail": "/menu-thumbnails/basil-pasta.jpg",
+            "altText": "homemade tomato and basil spaghetti",
+            "price": 14.99
         }
     ],
     "drinks": [

@@ -3,8 +3,6 @@ import dishes from "/data/dish-data.json";
 import Image from "next/image";
 import Link from "next/link";
 
-const SERVER_HOST = "http://localhost:3000";
-
 const Details = () => {
     const router = useRouter();
     const { id, name } = router.query;
