@@ -10,7 +10,7 @@ export default function Home() {
                 <title>Restaurant Name | Home</title>
                 <meta name="keywords" content="food" />
             </Head>
-            <div>
+            <div className="main-container">
                 <h1>Restaurant Name Here</h1>
                 <h2>Daily Specials</h2>
 

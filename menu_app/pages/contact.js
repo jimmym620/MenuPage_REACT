@@ -1,8 +1,16 @@
+import Head from "next/head";
+
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact us</h1>
-        </div>
+        <>
+            <Head>
+                <title>Restaurant Name | Book</title>
+                <meta name="keywords" content="food" />
+            </Head>
+            <div className="main-container">
+                <h1>Contact us</h1>
+            </div>
+        </>
     );
 };
 

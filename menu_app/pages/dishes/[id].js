@@ -8,7 +8,7 @@ const Details = () => {
     const { id, name } = router.query;
     return (
         <div>
-            {dishes.food.map((item) => {
+            {dishes.menu.map((item) => {
                 if (item.id === id) {
                     return (
                         <article className="dish-details">
@@ -23,6 +23,7 @@ const Details = () => {
                                     width={420}
                                     height={270}
                                 />
+
                                 <p>{item.altText}</p>
                             </div>
                         </article>

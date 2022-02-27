@@ -1,7 +1,8 @@
 {
-    "food": [
+    "menu": [
         {
             "id": "f1",
+            "category": ["food", "main course"],
             "name": "cheeseburger",
             "thumbnail": "/menu-thumbnails/cheeseburger.jpg",
             "altText": "cheeseburger with fries",
@@ -9,6 +10,7 @@
         },
         {
             "id": "f2",
+            "category": ["food", "main course"],
             "name": "spinach lasagne",
             "thumbnail": "/menu-thumbnails/lasagne.jpg",
             "altText": "lasagne made with fresh spinach",
@@ -16,6 +18,7 @@
         },
         {
             "id": "f3",
+            "category": ["food", "main course"],
             "name": "tomato & basil pizza",
             "thumbnail": "/menu-thumbnails/basil-pizza.jpg",
             "altText": "freshly baked pizza topped with basil and tomato",
@@ -23,27 +26,46 @@
         },
         {
             "id": "f4",
+            "category": ["food", "main course"],
             "name": "tomato & basil pasta",
             "thumbnail": "/menu-thumbnails/basil-pasta.jpg",
             "altText": "homemade tomato and basil spaghetti",
             "price": 14.99
-        }
-    ],
-    "drinks": [
+        },    
+        {
+            "id": "f5",
+            "category": ["food", "starter", "sides"],
+            "name": "garlic bread",
+            "thumbnail": "/menu-thumbnails/garlic-bread.jpg",
+            "altText": "goes well with soups or pastas",
+            "price": 2.99
+        },    
         {
             "id": "d1",
+            "category": ["drink", "dessert"],
             "name": "strawberry milkshake",
             "thumbnail": "/menu-thumbnails/strawb-milkshake.jpg",
             "altText": "strawberry milkshake",
             "price": 5.99
         },
         {
-            "id": "d1",
+            "id": "d2",
+            "category": ["drink"],
             "name": "fresh fruit juice",
             "thumbnail": "/menu-thumbnails/juices.jpg",
             "altText": "assortment of juices",
             "price": 4.99
+        },
+        {
+            "id": "d3",
+            "category": ["drink"],
+            "name": "soft drinks",
+            "thumbnail": "/menu-thumbnails/soft-drink.jpg",
+            "altText": "choose from: Coca-Cola, Fanta or Sprite",
+            "price": 3.99
         }
-        
     ]
+
+        
+    
 }
