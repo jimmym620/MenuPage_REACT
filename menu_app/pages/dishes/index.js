@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import MenuCategory from "../../comp/MenuCategory";
+import CategoryButton from "../../comp/CategoryButton";
 
 const Dishes = () => {
     return (
@@ -13,8 +14,14 @@ const Dishes = () => {
             <div className="menu-container">
                 <h1 className="menu-title">Our menu</h1>
                 <div className="menu-content">
-                    <MenuCategory cat="food" />
-                    <MenuCategory cat="drink" />
+                    {/* <MenuCategory cat="food" />
+                    <MenuCategory cat="drink" /> */}
+                    <div className="category-btn-list">
+                        <CategoryButton name="Starter" color="starter-pastel" />
+                        <CategoryButton name="Main" color="main-pastel" />
+                        <CategoryButton name="Dessert" color="dessert-pastel" />
+                        <CategoryButton name="Drinks" color="drinks-pastel" />
+                    </div>
                 </div>
             </div>
         </>

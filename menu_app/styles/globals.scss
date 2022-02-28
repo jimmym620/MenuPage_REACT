@@ -1,3 +1,8 @@
+$starter-color: #7897ab;
+$main-color: #655d8a;
+$dessert-color: #d885a3;
+$drinks-color: #fdceb9;
+
 html,
 body {
     width: 100%;
@@ -38,6 +43,24 @@ nav {
     }
 }
 
+.categoryButton {
+    background-color: #777;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h1 {
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .cat-icon {
+        font-size: 4rem;
+    }
+}
+
 .menu-container {
     display: flex;
     flex-direction: column;
@@ -50,7 +73,14 @@ nav {
 }
 
 .menu-content {
-    display: flex;
+    margin: 0 auto;
+}
+
+.category-btn-list {
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 20vw 20vw;
+    grid-row: auto;
 }
 
 .categories {
@@ -105,6 +135,7 @@ nav {
     // return button
     .item-menu-btn {
         height: 2.5rem;
+        margin-top: 1rem;
         max-width: 10rem;
         text-align: center;
         font-weight: 500;
@@ -175,4 +206,18 @@ footer {
             width: 80%;
         }
     }
+}
+
+// Colours ======
+.starter-pastel {
+    background-color: $starter-color;
+}
+.main-pastel {
+    background-color: $main-color;
+}
+.dessert-pastel {
+    background-color: $dessert-color;
+}
+.drinks-pastel {
+    background-color: $drinks-color;
 }
