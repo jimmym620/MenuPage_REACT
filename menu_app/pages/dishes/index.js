@@ -3,8 +3,15 @@ import Image from "next/image";
 import Head from "next/head";
 import MenuCategory from "../../comp/MenuCategory";
 import CategoryButton from "../../comp/CategoryButton";
+import { useState } from "react";
 
 const Dishes = () => {
+    const [category, setCategory] = useState("");
+
+    const handleCategorySelect = (cat) => {
+        setCategory(cat);
+    };
+
     return (
         <>
             <Head>
@@ -17,7 +24,11 @@ const Dishes = () => {
                     {/* <MenuCategory cat="food" />
                     <MenuCategory cat="drink" /> */}
                     <div className="category-btn-list">
-                        <CategoryButton name="Starter" color="starter-pastel" />
+                        <CategoryButton
+                            name="Starter"
+                            color="starter-pastel"
+                            handleCategorySelect={handleCategorySelect}
+                        />
                         <CategoryButton name="Main" color="main-pastel" />
                         <CategoryButton name="Dessert" color="dessert-pastel" />
                         <CategoryButton name="Drinks" color="drinks-pastel" />
