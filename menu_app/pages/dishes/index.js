@@ -3,12 +3,11 @@ import Image from "next/image";
 import Head from "next/head";
 import MenuCategory from "../../comp/MenuCategory";
 import CategoryButton from "../../comp/CategoryButton";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Dishes = () => {
     const [category, setCategory] = useState("");
     const [categoryChosen, setCategoryChosen] = useState(false);
-    const [showCategores, setShowCategories] = useState(true);
 
     const handleCategorySelect = (cat) => {
         setCategory(cat);
@@ -26,8 +25,11 @@ const Dishes = () => {
                 <div className="menu-content">
                     {categoryChosen && (
                         <>
-                            <button onClick={() => setCategoryChosen(false)}>
-                                Close
+                            <button
+                                className="cat-close-btn"
+                                onClick={() => setCategoryChosen(false)}
+                            >
+                                Go Back
                             </button>
                             <MenuCategory cat={category.toLowerCase()} />
                         </>

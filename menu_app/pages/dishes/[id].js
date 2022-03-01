@@ -15,6 +15,7 @@ const Details = () => {
                             <Link href="/dishes">
                                 <a className="item-menu-btn">Return to menu</a>
                             </Link>
+
                             <div>
                                 <h1>{item.name}</h1>
                                 <Image
@@ -23,6 +24,7 @@ const Details = () => {
                                     width={420}
                                     height={270}
                                 />
+                                <h3>${item.price}</h3>
 
                                 <p>{item.altText}</p>
                             </div>

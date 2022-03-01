@@ -7,6 +7,7 @@ html,
 body {
     width: 100%;
     background: #f2f2f2;
+    overflow: auto;
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -23,7 +24,7 @@ a {
 }
 .content {
     background: white;
-    max-width: 60vw;
+    width: 60vw;
     height: 90vh;
     margin: 1rem auto;
     padding: 2rem;
@@ -59,7 +60,6 @@ nav {
     .cat-icon {
         font-size: 4rem;
     }
-
 }
 .categoryButton:hover {
     cursor: pointer;
@@ -78,6 +78,13 @@ nav {
 
 .menu-content {
     margin: 0 auto;
+
+    button {
+        width: 6rem;
+        height: 2rem;
+        cursor: pointer;
+        font-weight: bold;
+    }
 }
 
 .category-btn-list {
@@ -90,7 +97,7 @@ nav {
 .categories {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
 
@@ -135,6 +142,7 @@ nav {
     // title
     h1 {
         text-transform: capitalize;
+        text-decoration: underline;
     }
     // return button
     .item-menu-btn {
@@ -174,12 +182,15 @@ footer {
 }
 
 @media (min-width: 250px) and (max-width: 650px) {
+    body {
+        width: 100vw;
+    }
     .content {
         display: flex;
         flex-direction: column;
-        max-width: 100vw;
+        width: 100%;
         margin: 0 auto;
-        padding: 0.5rem;
+        padding: 0;
     }
 
     nav {
@@ -196,8 +207,20 @@ footer {
         }
     }
 
-    .main-container {
+    .menu-content {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .category-btn-list {
+        grid-template-columns: 45vw 45vw;
         margin: 0 auto;
+        justify-content: center;
+    }
+
+    .categoryButton {
+        width: 100%;
     }
 
     .menu-item {

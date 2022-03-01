@@ -2,15 +2,15 @@
     "menu": [
         {
             "id": "f1",
-            "category": ["food", "main"],
+            "category": ["main"],
             "name": "cheeseburger",
             "thumbnail": "/menu-thumbnails/cheeseburger.jpg",
             "altText": "cheeseburger with fries",
-            "price": 12.99
+            "price": 11.99
         },
         {
             "id": "f2",
-            "category": ["food", "main"],
+            "category": ["main"],
             "name": "spinach lasagne",
             "thumbnail": "/menu-thumbnails/lasagne.jpg",
             "altText": "lasagne made with fresh spinach",
@@ -18,7 +18,7 @@
         },
         {
             "id": "f3",
-            "category": ["food", "main"],
+            "category": ["main"],
             "name": "tomato & basil pizza",
             "thumbnail": "/menu-thumbnails/basil-pizza.jpg",
             "altText": "freshly baked pizza topped with basil and tomato",
@@ -26,20 +26,36 @@
         },
         {
             "id": "f4",
-            "category": ["food", "main"],
+            "category": ["main"],
             "name": "tomato & basil pasta",
             "thumbnail": "/menu-thumbnails/basil-pasta.jpg",
             "altText": "homemade tomato and basil spaghetti",
-            "price": 14.99
+            "price": 11.99
         },    
         {
             "id": "f5",
-            "category": ["food", "starter", "sides"],
+            "category": ["starter", "sides"],
             "name": "garlic bread",
             "thumbnail": "/menu-thumbnails/garlic-bread.jpg",
             "altText": "goes well with soups or pastas",
             "price": 2.99
-        },    
+        },
+        {
+            "id": "f6",
+            "category": ["starter"],
+            "name": "cream soup",
+            "thumbnail": "/menu-thumbnails/cream-soup.jpg",
+            "altText": "",
+            "price": 5.99
+        },
+        {
+            "id": "f7",
+            "category": ["starter"],
+            "name": "pumpkin soup",
+            "thumbnail": "/menu-thumbnails/pumpkin-soup.jpg",
+            "altText": "",
+            "price": 5.99
+        },
         {
             "id": "d1",
             "category": ["drinks", "dessert"],
