@@ -50,7 +50,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    transition: border 0.2s, border-radius 0.5s;
     h1 {
         font-size: 1.5rem;
         margin: 0.5rem 0;
@@ -63,6 +63,10 @@ nav {
 }
 .categoryButton:hover {
     cursor: pointer;
+    // opacity: 0.8;
+
+    border: 0.5rem solid white;
+    border-radius: 0.75rem;
 }
 
 .menu-container {
@@ -125,6 +129,9 @@ nav {
         padding: 0;
         margin: 0.5rem;
     }
+}
+.menu-item:hover {
+    background-color: #f2f2f2;
 }
 
 .dish-details {
