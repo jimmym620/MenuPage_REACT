@@ -1,12 +1,12 @@
 import dishes from "/data/dish-data.json";
 import Link from "next/link";
 
-const Dishes = (props) => {
+const Dishes = ({cat}) => {
     return (
-        <div className="categories">
-            <h1>{props.cat}</h1>
+        <div className={`categories ${cat}-pastel` }>
+            <h1>{cat}</h1>
             {dishes.menu.map((item) => {
-                if (item.category.includes(props.cat)) {
+                if (item.category.includes(cat)) {
                     return (
                         <article key={item.id} className="menu-item">
                             <Link href={"/dishes/" + item.id}>

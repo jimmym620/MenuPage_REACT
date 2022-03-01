@@ -14,9 +14,9 @@ export default function Home() {
                 <h1>Restaurant Name Here</h1>
                 <h2>Daily Specials</h2>
 
-                <p>Chicken Caesar Salad</p>
+                <p>Spinach Lasagne</p>
                 <h3>Soup of the day</h3>
-                <p>Minestrone soup</p>
+                <p>Pumpkin soup</p>
             </div>
         </>
     );

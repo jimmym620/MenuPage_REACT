@@ -59,6 +59,7 @@ const Dishes = () => {
                             />
                         </div>
                     )}
+                    <h2>3 course meal</h2>
                 </div>
             </div>
         </>
