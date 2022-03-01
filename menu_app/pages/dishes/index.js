@@ -10,6 +10,7 @@ const Dishes = () => {
 
     const handleCategorySelect = (cat) => {
         setCategory(cat);
+        console.log(cat);
     };
 
     return (
@@ -29,9 +30,21 @@ const Dishes = () => {
                             color="starter-pastel"
                             handleCategorySelect={handleCategorySelect}
                         />
-                        <CategoryButton name="Main" color="main-pastel" />
-                        <CategoryButton name="Dessert" color="dessert-pastel" />
-                        <CategoryButton name="Drinks" color="drinks-pastel" />
+                        <CategoryButton
+                            name="Main"
+                            color="main-pastel"
+                            handleCategorySelect={handleCategorySelect}
+                        />
+                        <CategoryButton
+                            name="Dessert"
+                            color="dessert-pastel"
+                            handleCategorySelect={handleCategorySelect}
+                        />
+                        <CategoryButton
+                            name="Drinks"
+                            color="drinks-pastel"
+                            handleCategorySelect={handleCategorySelect}
+                        />
                     </div>
                 </div>
             </div>

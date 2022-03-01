@@ -16,14 +16,14 @@ function getIcon(name) {
     }
 }
 
-const CategoryButton = (props, handleCategorySelect) => {
+const CategoryButton = ({ color, name, handleCategorySelect }) => {
     return (
         <div
-            className={`categoryButton ${props.color}`}
-            onClick={() => console.log("working div")}
+            className={`categoryButton ${color}`}
+            onClick={() => handleCategorySelect(name)}
         >
-            <h1>{props.name}</h1>
-            <h1 className="cat-icon">{getIcon(props.name)}</h1>
+            <h1>{name}</h1>
+            <h1 className="cat-icon">{getIcon(name)}</h1>
         </div>
     );
 };
