@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import dishes from "/data/dish-data.json";
 import Image from "next/image";
 import Link from "next/link";
+import BackButton from "../../comp/BackButton";
 
 const Details = () => {
     const router = useRouter();
@@ -12,9 +13,7 @@ const Details = () => {
                 if (item.id === id) {
                     return (
                         <article className="dish-details">
-                            <Link href="/dishes">
-                                <a className="item-menu-btn">Return to menu</a>
-                            </Link>
+                            <BackButton />
 
                             <div>
                                 <h1>{item.name}</h1>
@@ -37,16 +36,3 @@ const Details = () => {
 };
 
 export default Details;
-
-// export const getStaticPaths = async () => {
-//     const res = await fetch(`${SERVER_HOST}/dishes`);
-//     const data = await res.json();
-
-//     return {
-//         props: { dishes: data },
-//     };
-// };
-
-// export async function getStaticPaths() {
-//     const res = await fetch (`${process.env.PUBLIC_URL}/dishes`)
-// }

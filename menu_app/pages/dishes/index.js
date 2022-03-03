@@ -21,7 +21,7 @@ const Dishes = () => {
                 <meta name="keywords" content="food" />
             </Head>
             <div className="menu-container">
-                <h1 className="menu-title">Our menu</h1>
+                <h1 className="menu-title">View our menu</h1>
                 <div className="menu-content">
                     {categoryChosen && (
                         <>
@@ -36,30 +36,38 @@ const Dishes = () => {
                     )}
                     {/* <MenuCategory cat="drink" /> */}
                     {!categoryChosen && (
-                        <div className="category-btn-list">
-                            <CategoryButton
-                                name="Starter"
-                                color="starter-pastel"
-                                handleCategorySelect={handleCategorySelect}
-                            />
-                            <CategoryButton
-                                name="Main"
-                                color="main-pastel"
-                                handleCategorySelect={handleCategorySelect}
-                            />
-                            <CategoryButton
-                                name="Dessert"
-                                color="dessert-pastel"
-                                handleCategorySelect={handleCategorySelect}
-                            />
-                            <CategoryButton
-                                name="Drinks"
-                                color="drinks-pastel"
-                                handleCategorySelect={handleCategorySelect}
-                            />
-                        </div>
+                        <>
+                            <div className="category-btn-list">
+                                <CategoryButton
+                                    name="Starter"
+                                    color="starter-pastel"
+                                    handleCategorySelect={handleCategorySelect}
+                                />
+                                <CategoryButton
+                                    name="Main"
+                                    color="main-pastel"
+                                    handleCategorySelect={handleCategorySelect}
+                                />
+                                <CategoryButton
+                                    name="Dessert"
+                                    color="dessert-pastel"
+                                    handleCategorySelect={handleCategorySelect}
+                                />
+                                <CategoryButton
+                                    name="Drinks"
+                                    color="drinks-pastel"
+                                    handleCategorySelect={handleCategorySelect}
+                                />
+                            </div>
+                            <div className="course-meal-container">
+                                <Link href="/dishes/three-course">
+                                    <a>
+                                        <h3>Click here to view our 3 course menu</h3>
+                                    </a>
+                                </Link>
+                            </div>
+                        </>
                     )}
-                    <h2>3 course meal</h2>
                 </div>
             </div>
         </>
