@@ -6,7 +6,7 @@ const ThreeCourse = () => {
             <p>Choose a starter, main and a dessert for £19.99</p>
             <BackButton />
             <section>
-                <div class="tcm-r1">
+                <div className="tcm-r1">
                     <div className="tcm-block">
                         <h2>Starters</h2>
                         <ul>
@@ -32,7 +32,7 @@ const ThreeCourse = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="tcm-r2">
+                <div className="tcm-r2">
                     <div className="tcm-block">
                         <h2>Desserts</h2>
                         <ul>
