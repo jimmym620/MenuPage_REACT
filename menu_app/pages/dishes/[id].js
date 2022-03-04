@@ -23,9 +23,11 @@ const Details = () => {
                                     width={420}
                                     height={270}
                                 />
-                                <h3>${item.price}</h3>
+                                <div>
+                                    <h3>${item.price}</h3>
 
-                                <p>{item.altText}</p>
+                                    <p>{item.altText}</p>
+                                </div>
                             </div>
                         </article>
                     );

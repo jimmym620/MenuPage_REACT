@@ -166,6 +166,12 @@ nav {
         flex-direction: column;
         margin: 0 auto;
         text-align: center;
+        div {
+            padding: 0 1rem;
+            width: 100%;
+            border-radius: 0.5rem;
+            background-color: white;
+        }
     }
     // title
     h1 {
@@ -177,6 +183,7 @@ nav {
     img {
         object-fit: cover;
         border-radius: 0.5rem;
+        border: 5px solid white;
     }
 }
 .item-menu-btn {

@@ -2,7 +2,7 @@ import BackButton from "../../comp/BackButton";
 
 const ThreeCourse = () => {
     return (
-        <div className="tcm-container">
+        <div className="tcm-container white-box">
             <div className="tcm-header">
                 <p>Choose a starter, main and a dessert for £19.99</p>
                 <BackButton />
