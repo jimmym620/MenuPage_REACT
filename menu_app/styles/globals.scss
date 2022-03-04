@@ -6,7 +6,8 @@ $drinks-color: #fdceb9;
 html,
 body {
     width: 100%;
-    background: #f2f2f2;
+    // background: #f2f2f2;
+    background-image: url("/background-fruit.jpg");
     overflow: auto;
     padding: 0;
     margin: 0;
@@ -24,11 +25,12 @@ a {
 }
 
 .content {
-    background: white;
+    background: #f2f2f2;
     width: 60vw;
-    height: 90vh;
+    height: 92.5vh;
     margin: 0.5rem auto;
     padding: 1rem;
+    border-radius: 1rem;
 }
 
 nav {
@@ -181,6 +183,7 @@ nav {
 
     p {
         padding: 0.5rem 0;
+        font-weight: bold;
         text-align: center;
         margin: 0 auto;
     }
@@ -222,7 +225,7 @@ footer {
     width: 100%;
     text-align: center;
     color: #777;
-    border-top: 1px solid #eaeaea;
+    // border-top: 1px solid #eaeaea;
 }
 
 .not-found {
