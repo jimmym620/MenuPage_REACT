@@ -7,7 +7,7 @@ const Contact = () => {
                 <title>Restaurant Name | Book</title>
                 <meta name="keywords" content="food" />
             </Head>
-            <div className="main-container">
+            <div className="main-container white-box">
                 <h1>Contact us</h1>
             </div>
         </>

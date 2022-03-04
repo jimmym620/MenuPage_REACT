@@ -20,7 +20,7 @@ const Dishes = () => {
                 <title>Restaurant Name | Menu </title>
                 <meta name="keywords" content="food" />
             </Head>
-            <div className="menu-container">
+            <div className="menu-container white-box">
                 <h1 className="menu-title">View our menu</h1>
                 <div className="menu-content">
                     {categoryChosen && (

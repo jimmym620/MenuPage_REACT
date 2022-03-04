@@ -3,8 +3,10 @@ import BackButton from "../../comp/BackButton";
 const ThreeCourse = () => {
     return (
         <div className="tcm-container">
-            <p>Choose a starter, main and a dessert for £19.99</p>
-            <BackButton />
+            <div className="tcm-header">
+                <p>Choose a starter, main and a dessert for £19.99</p>
+                <BackButton />
+            </div>
             <section>
                 <div className="tcm-r1">
                     <div className="tcm-block">
