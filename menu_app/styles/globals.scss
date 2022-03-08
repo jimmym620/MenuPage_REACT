@@ -58,6 +58,9 @@ nav {
 
 .main-container {
     padding: 0.5rem 1rem;
+    a {
+        text-decoration: underline;
+    }
 }
 
 .categoryButton {
@@ -279,7 +282,7 @@ footer {
     .content {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 96vw;
         height: 100vh;
         margin: 0 auto;
         padding: 0;
