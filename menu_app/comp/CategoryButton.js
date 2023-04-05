@@ -5,11 +5,11 @@ import { CgCoffee } from "react-icons/cg";
 
 function getIcon(name) {
     switch (name) {
-        case "Starter":
+        case "Starters":
             return <CgCoffee />;
-        case "Main":
+        case "Mains":
             return <CgBowl />;
-        case "Dessert":
+        case "Desserts":
             return <CgShield />;
         case "Drinks":
             return <CgGlassAlt />;

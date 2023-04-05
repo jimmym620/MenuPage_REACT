@@ -2,7 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import MenuCategory from "../../comp/MenuCategory";
 import CategoryButton from "../../comp/CategoryButton";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Dishes = () => {
     const [category, setCategory] = useState("");
@@ -16,11 +16,11 @@ const Dishes = () => {
     return (
         <>
             <Head>
-                <title>Restaurant Name | Menu </title>
+                <title>John Smith's | Menu </title>
                 <meta name="keywords" content="food" />
             </Head>
             <div className="menu-container white-box">
-                <h1 className="menu-title">View our menu</h1>
+                <h1 className="menu-title">Our Menu</h1>
                 <div className="menu-content">
                     {categoryChosen && (
                         <>
@@ -38,17 +38,17 @@ const Dishes = () => {
                         <>
                             <div className="category-btn-list">
                                 <CategoryButton
-                                    name="Starter"
+                                    name="Starters"
                                     color="starter-pastel"
                                     handleCategorySelect={handleCategorySelect}
                                 />
                                 <CategoryButton
-                                    name="Main"
+                                    name="Mains"
                                     color="main-pastel"
                                     handleCategorySelect={handleCategorySelect}
                                 />
                                 <CategoryButton
-                                    name="Dessert"
+                                    name="Desserts"
                                     color="dessert-pastel"
                                     handleCategorySelect={handleCategorySelect}
                                 />

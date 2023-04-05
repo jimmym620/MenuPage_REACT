@@ -2,7 +2,9 @@
     "menu": [
         {
             "id": "f1",
-            "category": ["main"],
+            "category": [
+                "mains"
+            ],
             "name": "cheeseburger",
             "thumbnail": "/menu-thumbnails/cheeseburger.jpg",
             "altText": "cheeseburger with fries",
@@ -10,7 +12,9 @@
         },
         {
             "id": "f2",
-            "category": ["main"],
+            "category": [
+                "mains"
+            ],
             "name": "spinach lasagne",
             "thumbnail": "/menu-thumbnails/lasagne.jpg",
             "altText": "lasagne made with fresh spinach",
@@ -18,7 +22,9 @@
         },
         {
             "id": "f3",
-            "category": ["main"],
+            "category": [
+                "mains"
+            ],
             "name": "tomato & basil pizza",
             "thumbnail": "/menu-thumbnails/basil-pizza.jpg",
             "altText": "freshly baked pizza topped with basil and tomato",
@@ -26,15 +32,20 @@
         },
         {
             "id": "f4",
-            "category": ["main"],
+            "category": [
+                "mains"
+            ],
             "name": "tomato & basil pasta",
             "thumbnail": "/menu-thumbnails/basil-pasta.jpg",
             "altText": "homemade tomato and basil spaghetti",
             "price": 11.99
-        },    
+        },
         {
             "id": "f5",
-            "category": ["starter", "sides"],
+            "category": [
+                "starters",
+                "sides"
+            ],
             "name": "garlic bread",
             "thumbnail": "/menu-thumbnails/garlic-bread.jpg",
             "altText": "goes well with soups or pastas",
@@ -42,7 +53,9 @@
         },
         {
             "id": "f6",
-            "category": ["starter"],
+            "category": [
+                "starters"
+            ],
             "name": "cream soup",
             "thumbnail": "/menu-thumbnails/cream-soup.jpg",
             "altText": "",
@@ -50,7 +63,9 @@
         },
         {
             "id": "f7",
-            "category": ["starter"],
+            "category": [
+                "starters"
+            ],
             "name": "pumpkin soup",
             "thumbnail": "/menu-thumbnails/pumpkin-soup.jpg",
             "altText": "",
@@ -58,7 +73,10 @@
         },
         {
             "id": "d1",
-            "category": ["drinks", "dessert"],
+            "category": [
+                "drinks",
+                "desserts"
+            ],
             "name": "strawberry milkshake",
             "thumbnail": "/menu-thumbnails/strawb-milkshake.jpg",
             "altText": "strawberry milkshake",
@@ -66,7 +84,9 @@
         },
         {
             "id": "d2",
-            "category": ["drinks"],
+            "category": [
+                "drinks"
+            ],
             "name": "fresh fruit juice",
             "thumbnail": "/menu-thumbnails/juices.jpg",
             "altText": "assortment of juices",
@@ -74,14 +94,13 @@
         },
         {
             "id": "d3",
-            "category": ["drinks"],
+            "category": [
+                "drinks"
+            ],
             "name": "soft drinks",
             "thumbnail": "/menu-thumbnails/soft-drink.jpg",
             "altText": "choose from: Coca-Cola, Fanta or Sprite",
             "price": 3.99
         }
     ]
-
-        
-    
 }

@@ -5,15 +5,14 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Restaurant Name | Home</title>
+                <title>John Smith's | Home</title>
                 <meta name="keywords" content="food" />
             </Head>
-            <div className="main-container white-box">
-                <h1>Restaurant Name</h1>
+            <div className="main-container">
                 <h2>Daily Specials</h2>
 
                 <p>Spinach Lasagne</p>
-                <h3>Soup of the day</h3>
+                <h2>Soup of the day</h2>
                 <p>Pumpkin soup</p>
                 <Link href="/dishes">
                     <a>

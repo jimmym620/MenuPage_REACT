@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             <Head>
-                <title>Restaurant Name | About </title>
+                <title>John Smith's | About </title>
                 <meta name="keywords" content="food" />
             </Head>
             <div className="main-container white-box">
