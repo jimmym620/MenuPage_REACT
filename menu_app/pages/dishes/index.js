@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import Head from "next/head";
 import MenuCategory from "../../comp/MenuCategory";
 import CategoryButton from "../../comp/CategoryButton";
@@ -62,7 +61,9 @@ const Dishes = () => {
                             <div className="course-meal-container">
                                 <Link href="/dishes/three-course">
                                     <a>
-                                        <h3>Click here to view our 3 course menu</h3>
+                                        <h3>
+                                            Click here to view our 3 course menu
+                                        </h3>
                                     </a>
                                 </Link>
                             </div>

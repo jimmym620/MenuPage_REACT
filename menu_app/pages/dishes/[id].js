@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import dishes from "/data/dish-data.json";
 import Image from "next/image";
-import Link from "next/link";
 import BackButton from "../../comp/BackButton";
 
 const Details = () => {
