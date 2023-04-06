@@ -70,15 +70,14 @@ nav {
             gap: 3rem;
         }
         &.headings {
-            padding-top: 5rem;
 
             flex-direction: column;
             h1 {
                 text-align: center;
-                font-size: 2rem;
+                font-size: 1.75rem;
                 font-weight: 100;
                 margin: 0;
-                padding: 0.5rem 0;
+                padding: 0.25rem 0;
             }
         }
     }
