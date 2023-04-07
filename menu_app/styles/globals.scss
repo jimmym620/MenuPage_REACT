@@ -70,7 +70,6 @@ nav {
             gap: 3rem;
         }
         &.headings {
-
             flex-direction: column;
             h1 {
                 text-align: center;
@@ -104,7 +103,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    transition: border 0.2s, border-radius 0.5s;
+    transition: border 0.25s, border-radius 0.5s;
     h1 {
         font-size: 1.5rem;
         margin: 0.5rem 0;
@@ -116,10 +115,9 @@ nav {
     }
     &:hover {
         cursor: pointer;
-        // opacity: 0.8;
+        opacity: 0.9;
 
-        border: 0.5rem solid white;
-        border-radius: 0.75rem;
+        border: 0.3rem solid white;
     }
 }
 
@@ -398,13 +396,17 @@ footer {
 // Colours ======
 .starter-pastel {
     background-color: $starter-color;
+    border-radius: 1rem 0 0 0;
 }
 .main-pastel {
     background-color: $main-color;
+    border-radius: 0 1rem 0 0;
 }
 .dessert-pastel {
     background-color: $dessert-color;
+    border-radius: 0 0 0 1rem;
 }
 .drinks-pastel {
     background-color: $drinks-color;
+    border-radius: 0 0 1rem 0;
 }
