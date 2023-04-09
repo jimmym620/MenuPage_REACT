@@ -1,15 +1,22 @@
 import { useRouter } from "next/router";
-import dishes from "/data/dish-data.json";
+import dishdata from "/data/dish-data.json";
 import Image from "next/image";
 import BackButton from "../../comp/BackButton";
 
 const Details = () => {
     const router = useRouter();
-    const { id, name } = router.query;
+    const { name } = router.query;
+
     return (
         <div>
-            {dishes.menu.map((item) => {
-                if (item.id === id) {
+            {dishdata.menu.map((item) => {
+                const slug = item.name
+                    .toLowerCase()
+                    .trim()
+                    .replace(/[^\w\s-]/g, "")
+                    .replace(/[\s_-]+/g, "-")
+                    .replace(/^-+|-+$/g, "");
+                if (slug === name) {
                     return (
                         <article className="dish-details">
                             <BackButton />

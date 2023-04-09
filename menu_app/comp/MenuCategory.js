@@ -7,9 +7,15 @@ const Dishes = ({ cat }) => {
             <h1>{cat}</h1>
             {dishes.menu.map((item) => {
                 if (item.category.includes(cat)) {
+                    const slug = item.name
+                        .toLowerCase()
+                        .trim()
+                        .replace(/[^\w\s-]/g, "")
+                        .replace(/[\s_-]+/g, "-")
+                        .replace(/^-+|-+$/g, "");
                     return (
                         <article key={item.id} className="menu-item">
-                            <Link href={"/dishes/" + item.id}>
+                            <Link href={"/dishes/" + slug}>
                                 <a>
                                     <h3>{item.name}</h3>
                                 </a>
