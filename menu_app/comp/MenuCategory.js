@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Dishes = ({ cat }) => {
     return (
-        <div className={`categories ${cat}-pastel`}>
+        <div className={`categories`}>
             <h1>{cat}</h1>
             {dishes.menu.map((item) => {
                 if (item.category.includes(cat)) {

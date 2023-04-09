@@ -19,7 +19,7 @@ const Dishes = () => {
                 <title>John Smith's | Menu </title>
                 <meta name="keywords" content="food" />
             </Head>
-            <div className="menu-container white-box">
+            <div className="menu-container">
                 <h1 className="menu-title">Our Menu</h1>
                 <div className="menu-content">
                     {categoryChosen && (
@@ -33,7 +33,7 @@ const Dishes = () => {
                             <MenuCategory cat={category.toLowerCase()} />
                         </>
                     )}
-                    {/* <MenuCategory cat="drink" /> */}
+
                     {!categoryChosen && (
                         <>
                             <div className="category-btn-list">
