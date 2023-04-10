@@ -174,14 +174,17 @@ nav {
 }
 
 .menu-item {
-    height: 4vh;
-
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    a {
+        padding: 0;
+        margin: 0;
+    }
     h3 {
         text-transform: capitalize;
-
+        margin: 0;
         // text-decoration: underline;
     }
 }
