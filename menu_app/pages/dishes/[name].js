@@ -22,7 +22,7 @@ const Details = () => {
                             <BackButton />
 
                             <div>
-                                <h1>{item.name}</h1>
+                                <h1 className="capitalise">{item.name}</h1>
                                 <Image
                                     src={item.thumbnail}
                                     alt={item.altText}

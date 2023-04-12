@@ -55,6 +55,10 @@ a {
     background-image: $gradient-main;
 }
 
+.capitalise {
+    text-transform: capitalize;
+}
+
 nav {
     max-width: 100vw;
     height: 40vh;
@@ -207,11 +211,7 @@ nav {
             background-color: white;
         }
     }
-    // title
-    h1 {
-        text-transform: capitalize;
-        text-decoration: underline;
-    }
+
     // return button
 
     img {
