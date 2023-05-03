@@ -9,3 +9,4 @@ This restaurant menu is my first mini-project with Next.js. It features conditio
 * Next.js
 * SASS
 * React-icons
+* Playwright
